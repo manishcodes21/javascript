@@ -1,0 +1,1 @@
+console.log("Life e oka zindagi")
