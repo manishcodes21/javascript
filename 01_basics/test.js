@@ -1,1 +1,1 @@
-console.log("Life e oka zindagi")
+console.log("Life e oka zindagi");
