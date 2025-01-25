@@ -5,9 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dom learning</title>
 </head>
-<body>
-    <div class="bg-black">
-        <h1>Dom learning on chai aur code</h1>
+<style>
+    .bg-black{
+        background-color: black;
+        color: white;
+        padding: 10px;
+    }
+</style>
+<body class="bg-black">
+    
+    <div >
+        <h1 id="title" class="heading">Dom learning on chai aur code</h1>
+        <h2>Lorem, ipsum.</h2>
+        <h2>Lorem, ipsum.</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+
+        <ul>
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+        </ul>
     </div>
 </body>
+<script>
+    //DOM manipulation
+    // in html every element is a nodes
+    // If we consider browser
+    // then window is the main object
+    // then document-> html-> then further tags
+    //we can manipulate elements by using dom methods
+    document.getElementById('title').style.color = 'red';
+
+    document.getElementsByClassName('heading')[0].style.color = 'green';
+
+    document.getElemnetById('title').innerHTML ; // to get the inner html of the element
+    document.getElementById('title').innerText // gives inner text
+    document.getElementById('title').textContent // gives inner text and alos any hidden text too if hiden by css
+    
+    //query selectors
+    document.querySelector('h1') // it will select the first html tag h1 in the document
+    document.querySelectorAll('h1') // it will select all html tag h1 in the document
+    document.querySelector('.heading') // it will select the first element with class heading
+    document.querySelector('#title') // it will select the first element with id title
+
+    //Nodelist is not an array
+    //you can access elements in NOdelist using index
+    //inorder to loop we can use forEach 
+
+    //same way HTMLcollection is also not an array
+    //in order to convert it to array we can use Array.from() method
+    // or we can use spread operator
+    
+
+
+
+</script>
 </html>

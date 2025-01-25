@@ -1,7 +1,8 @@
 //dates
 
 let myDate=new Date();
-// console.log(myDate.toLocaleString());
+console.log(myDate);
+console.log(myDate.toLocaleString());
 // console.log(typeof myDate) // output : object
 
 let myCreatedDate=new Date(2023,0,23);

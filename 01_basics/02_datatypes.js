@@ -6,7 +6,7 @@
 
 //primitive data types
 let name="manish" // string
-let age=20 // you can use till 2^53-1
+let age=20 //number you can use till 2^53-1
 let isAdult=true //bollean
 //null => stand alone value
 //undefined => variable declared but not assigned

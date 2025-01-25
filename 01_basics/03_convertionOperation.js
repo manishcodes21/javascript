@@ -13,7 +13,7 @@ let val=Number(marks)
 console.log(typeof val, val);
 
 //"33" => 33
-//"34fdsa" => Nan
+//"34fdsa" => NaN
 //true => 1
 //false => 0
 

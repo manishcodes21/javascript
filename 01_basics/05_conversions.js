@@ -11,5 +11,6 @@ console.log(null>=0); // output : true
 
 
 // (loose equality) == is used for value comparison
-// (strict equality) === is used for value and datatype comparison    
-console.log(null==0); // output : false
+// (strict equality) === is used for value and datatype comparison  
+console.log(null)  
+console.log("0"===0); // output : false
